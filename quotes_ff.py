@@ -15,8 +15,8 @@ browser = webdriver.Firefox()
 browser.get("https://www.m-x.ca/en/trading/data/quotes")
 
 # Defining the columns to read
-quoteOptions = ['symbolOEQ','symbolETF','symbolSSF']
-quoteCSV = ['equity.csv', 'etf.csv','shareFutures.csv']
+quoteOptions = ['symbolOEQ','symbolETF','symbolSSF'] #Select name
+quoteCSV = ['equity.csv', 'etf.csv','shareFutures.csv'] # CSV fie
 
 for q1, q2 in zip(quoteOptions, quoteCSV):
     

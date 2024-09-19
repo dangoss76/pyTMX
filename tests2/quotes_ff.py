@@ -11,6 +11,7 @@ import time
 
 print("Test Execution Started")
 
+
 options = webdriver.ChromeOptions()
 options.add_argument('--ignore-ssl-errors=yes')
 options.add_argument('--ignore-certificate-errors')
